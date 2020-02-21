@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Swiper</title>
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-slide {
+            display: flex;
+            height: 400px;
+            background: #ccc;
+            justify-content: center;
+            align-items: center;
+            font: 88px Arial
+        }
+        
+        .swiper-pagination-bullet-active {
+            background: #666;
+        }
+        
+    </style>
+    <style>
+        .red{
+           
+            background-color: royalblue;
+        }
+        .blue{
+          color:darkslategrey;
+          
+        }
+        
+        
+    </style>
+    <link rel="stylesheet" href="css/lightbox.min.css">
+</head>
+<body class="red" >
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/mi9.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/m99.jpg"></div>
+                <div class="swiper-slide"><img src="./images/headphone.jpg"></div>
+                <div class="swiper-slide"><img src="./images/nadaa.png"></div>
+                <div class="swiper-slide"><img src="./images/carrefador.jpg"></div>
+                <div class="swiper-slide"><img src="./images/carrega.jpg"></div>
+                
+            </div>
+            <div class="swiper-pagination"></div>    
+        </div>
+
+    <script src="./js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination:{
+                el: '.swiper-pagination',
+                autoHeight: true
+            }
+        })
+    </script>
+
+    <h1 style="padding: 20px;" class="blue">Galeria de fotos</h1>
+
+
+    
+    <a href="images/xiami 9t.jpg" 
+    data-title="Legenda da foto" 
+    data-lightbox="photo1">
+        <img src="images/xiami 9t.jpg" 
+        width="200" alt="">
+    </a>
+    <a href="images/xiami 9t.jpg" 
+    data-title="Legenda da foto" 
+    data-lightbox="photo1">
+        <img src="images/xiami 9t.jpg" width="200" alt="">
+    </a>
+
+<a href="images/xiami 9t.jpg" 
+    data-title="Legenda da foto" 
+    data-lightbox="photo1">
+        <img src="images/xiami 9t.jpg" 
+        width="200" alt="">
+    </a>
+    <a href="images/xiami 9t.jpg" 
+    data-title="Legenda da foto" 
+    data-lightbox="photo1">
+        <img src="images/xiami 9t.jpg" width="200" alt="">
+    </a>
+
+<a href="images/xiami 9t.jpg" 
+    data-title="Legenda da foto" 
+    data-lightbox="photo1">
+        <img src="images/xiami 9t.jpg" 
+        width="200" alt="">
+    </a>
+    <a href="images/xiami 9t.jpg" 
+    data-title="Legenda da foto" 
+    data-lightbox="harry">
+        <img src="images/xiami 9t.jpg" width="200" alt="">
+    </a>
+
+
+    <script src="js/lightbox-plus-jquery.min.js"></script> 
+    <script src="js/lightbox.loja.htmlin.js"></script>
+
+<br><br><br>
+<h1 class="h1"> VOCÊ TAMBEM PODE ESCOLHER OUTROS PRODUTOS</h1>
+<a href="loja.html"><img src="images/samsung-a20s-celular-smartphone-1.webp" height="400px"></a>
+<h2> aqui para ver mais informaçoes</h2>
+
+</body>
+</html>
